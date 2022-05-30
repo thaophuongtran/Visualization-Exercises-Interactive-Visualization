@@ -9,6 +9,12 @@ library(ggtext)
 
     ## Warning: package 'ggtext' was built under R version 4.1.3
 
+``` r
+library(rsconnect)
+```
+
+    ## Warning: package 'rsconnect' was built under R version 4.1.3
+
 1.  **How popular am I?**
 
 ``` r
@@ -41,8 +47,18 @@ bbnames %>% filter(name=="Karen") %>%
 
 2.  **The app**
 
-Link:
+Link: <https://thaophuongtran.shinyapps.io/DataViz_Hw4_Prob2_TT/>
+
+``` r
+# deploy application
+#rsconnect::deployApp('https://thaophuongtran.shinyapps.io/DataViz_Hw4_Prob2_TT/')
+```
 
 3.  **The styled app**
 
-Link
+Link: <https://thaophuongtran.shinyapps.io/DataViz_Hw4_Prob3_TT/>
+
+``` r
+# deploy application
+#rsconnect::deployApp('https://thaophuongtran.shinyapps.io/DataViz_Hw4_Prob3_TT/')
+```

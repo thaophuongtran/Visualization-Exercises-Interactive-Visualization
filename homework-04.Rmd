@@ -42,18 +42,18 @@ bbnames %>% filter(name=="Karen") %>%
 
 2.  **The app**
 
-Link:
+Link: https://thaophuongtran.shinyapps.io/DataViz_Hw4_Prob2_TT/
 ```{r p2}
 # deploy application
-rsconnect::deployApp('https://thaophuongtran.shinyapps.io/DataViz_Hw4_Prob2_TT/')
+#rsconnect::deployApp('https://thaophuongtran.shinyapps.io/DataViz_Hw4_Prob2_TT/')
 ```
 
 
 
 3.  **The styled app**
 
-Link
+Link: https://thaophuongtran.shinyapps.io/DataViz_Hw4_Prob3_TT/
 ```{r p3}
 # deploy application
-rsconnect::deployApp('https://thaophuongtran.shinyapps.io/DataViz_Hw4_Prob3_TT/')
+#rsconnect::deployApp('https://thaophuongtran.shinyapps.io/DataViz_Hw4_Prob3_TT/')
 ```
